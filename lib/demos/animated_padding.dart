@@ -41,7 +41,7 @@ class _AnimatedPaddingDemoState extends State<AnimatedPaddingDemo> {
               ),
               alignment: Alignment.center,
               child: const Text(
-                'Padding 动画',
+                'Padding Animation',
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
             ),
