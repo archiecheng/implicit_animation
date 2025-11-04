@@ -15,7 +15,9 @@ class _AnimatedPaddingDemoState extends State<AnimatedPaddingDemo> {
 
   void _toggle() {
     setState(() {
-      _paddingValue = _paddingValue == 20.0 ? 100.0 : 20.0;
+      _paddingValue = _paddingValue == 20.0 
+      ? 100.0 
+      : 20.0;
     });
   }
 
@@ -41,7 +43,7 @@ class _AnimatedPaddingDemoState extends State<AnimatedPaddingDemo> {
               ),
               alignment: Alignment.center,
               child: const Text(
-                'Padding 动画',
+                'Padding Animation',
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
             ),

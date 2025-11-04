@@ -13,7 +13,11 @@ class AnimatedContainerDemo extends StatefulWidget {
 class _AnimatedContainerDemoState extends State<AnimatedContainerDemo> {
   bool _toggled = false;
 
-  void _toggle() => setState(() => _toggled = !_toggled);
+    void _toggle() =>
+    setState(() =>
+        _toggled = !_toggled,
+    );
+
   void _reset() => setState(() => _toggled = false);
 
   @override
