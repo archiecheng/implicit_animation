@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedPadding 隐式动画示例：
-/// - 改变 Padding 值时，子组件会自动平滑调整位置与间距
-/// - 常用于实现布局内元素的动态“挤压”或“展开”效果
+/// Example of AnimatedPadding:
+/// - When the Padding value changes, child components automatically and smoothly adjust their position and spacing.
+/// - Commonly used to achieve dynamic "squeezing" or "expanding" effects for elements within a layout.
 class AnimatedPaddingDemo extends StatefulWidget {
   const AnimatedPaddingDemo({super.key});
 

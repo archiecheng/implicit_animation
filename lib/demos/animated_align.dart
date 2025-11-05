@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedAlign 隐式动画示例：
-/// - 改变子组件的对齐方式时，自动平滑移动到新位置
-/// - 常用于实现元素位置的动态过渡效果
+/// AnimatedAlign implicit animation example:
+/// - Automatically and smoothly moves to the new position when the alignment of a child component changes.
+/// - Commonly used to achieve dynamic transition effects in element position.
 class AnimatedAlignDemo extends StatefulWidget {
   const AnimatedAlignDemo({super.key});
 

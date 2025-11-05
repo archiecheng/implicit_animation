@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedContainer 隐式动画示例：
-/// - 改变容器的大小、颜色、圆角等属性时，会自动平滑过渡
-/// - 无需手动创建 AnimationController
+/// AnimatedContainer implicit animation example:
+/// - Automatically and smoothly transitions when the container's size, color, rounded corners, etc., are changed.
+/// - No need to manually create an AnimationController
 class AnimatedContainerDemo extends StatefulWidget {
   const AnimatedContainerDemo({super.key});
 

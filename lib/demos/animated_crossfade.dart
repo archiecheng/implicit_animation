@@ -2,15 +2,15 @@
  * @Author: archiecheng archiechengice@outlook.com
  * @Date: 2025-11-03 22:41:20
  * @LastEditors: archiecheng archiechengice@outlook.com
- * @LastEditTime: 2025-11-03 22:46:52
+ * @LastEditTime: 2025-11-04 21:32:27
  * @FilePath: \Implicit Animations\implicit_animations_demo\lib\demos\animated_crossfade.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import 'package:flutter/material.dart';
 
-/// AnimatedCrossFade 隐式动画示例：
-/// - 可在两个 Widget 之间平滑切换（淡入淡出 + 尺寸过渡）
-/// - 常用于展示“展开/收起”、“显示/隐藏”等场景
+/// AnimatedCrossFade Implicit Animation Example:
+/// - Allows for smooth switching between two widgets (fade in/out + size transition)
+/// - Commonly used to demonstrate "expand/collapse", "show/hide", etc.
 class AnimatedCrossFadeDemo extends StatefulWidget {
   const AnimatedCrossFadeDemo({super.key});
 

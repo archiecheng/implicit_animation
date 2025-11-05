@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedOpacity 隐式动画示例：
-/// - 改变透明度时，Widget 会自动淡入淡出
-/// - 无需 AnimationController
+/// Example of implicit animation using AnimatedOpacity:
+/// - The widget automatically fades in and out when its opacity changes.
+/// - No AnimationController required.
 class AnimatedOpacityDemo extends StatefulWidget {
   const AnimatedOpacityDemo({super.key});
 
