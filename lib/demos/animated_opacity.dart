@@ -13,7 +13,11 @@ class AnimatedOpacityDemo extends StatefulWidget {
 class _AnimatedOpacityDemoState extends State<AnimatedOpacityDemo> {
   double _opacity = 1.0;
 
-  void _toggle() => setState(() => _opacity = _opacity == 1.0 ? 0.0 : 1.0);
+  void _toggle() => setState(
+    () => _opacity = _opacity == 1.0
+     ? 0.0 
+     : 1.0
+     );
   void _reset() => setState(() => _opacity = 1.0);
 
   @override

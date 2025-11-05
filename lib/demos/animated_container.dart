@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
 /// AnimatedContainer implicit animation example:
 /// - Automatically and smoothly transitions when the container's size, color, rounded corners, etc., are changed.
 /// - No need to manually create an AnimationController
+=======
+>>>>>>> cd8fc3aebd7408fe2c1ff6b55756114ea27b7fec
 class AnimatedContainerDemo extends StatefulWidget {
   const AnimatedContainerDemo({super.key});
 
@@ -13,7 +16,11 @@ class AnimatedContainerDemo extends StatefulWidget {
 class _AnimatedContainerDemoState extends State<AnimatedContainerDemo> {
   bool _toggled = false;
 
-  void _toggle() => setState(() => _toggled = !_toggled);
+    void _toggle() =>
+    setState(() =>
+        _toggled = !_toggled,
+    );
+
   void _reset() => setState(() => _toggled = false);
 
   @override

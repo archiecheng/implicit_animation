@@ -16,7 +16,9 @@ class _AnimatedAlignDemoState extends State<AnimatedAlignDemo> {
   void _toggle() {
     setState(() {
       _alignment =
-          _alignment == Alignment.topLeft ? Alignment.bottomRight : Alignment.topLeft;
+          _alignment == Alignment.topLeft 
+          ? Alignment.bottomRight 
+          : Alignment.topLeft;
     });
   }
 

@@ -1,11 +1,3 @@
-/*
- * @Author: archiecheng archiechengice@outlook.com
- * @Date: 2025-11-03 22:41:20
- * @LastEditors: archiecheng archiechengice@outlook.com
- * @LastEditTime: 2025-11-04 21:32:27
- * @FilePath: \Implicit Animations\implicit_animations_demo\lib\demos\animated_crossfade.dart
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 import 'package:flutter/material.dart';
 
 /// AnimatedCrossFade Implicit Animation Example:
@@ -21,7 +13,10 @@ class AnimatedCrossFadeDemo extends StatefulWidget {
 class _AnimatedCrossFadeDemoState extends State<AnimatedCrossFadeDemo> {
   bool _showFirst = true;
 
-  void _toggle() => setState(() => _showFirst = !_showFirst);
+  void _toggle() => 
+      setState(() => 
+          _showFirst = !_showFirst
+      );
   void _reset() => setState(() => _showFirst = true);
 
   @override

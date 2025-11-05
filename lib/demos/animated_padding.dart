@@ -15,7 +15,9 @@ class _AnimatedPaddingDemoState extends State<AnimatedPaddingDemo> {
 
   void _toggle() {
     setState(() {
-      _paddingValue = _paddingValue == 20.0 ? 100.0 : 20.0;
+      _paddingValue = _paddingValue == 20.0 
+      ? 100.0 
+      : 20.0;
     });
   }
 
