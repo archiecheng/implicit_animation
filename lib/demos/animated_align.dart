@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedAlign 隐式动画示例：
-/// - 改变子组件的对齐方式时，自动平滑移动到新位置
-/// - 常用于实现元素位置的动态过渡效果
 class AnimatedAlignDemo extends StatefulWidget {
   const AnimatedAlignDemo({super.key});
 
@@ -16,7 +13,9 @@ class _AnimatedAlignDemoState extends State<AnimatedAlignDemo> {
   void _toggle() {
     setState(() {
       _alignment =
-          _alignment == Alignment.topLeft ? Alignment.bottomRight : Alignment.topLeft;
+          _alignment == Alignment.topLeft 
+          ? Alignment.bottomRight 
+          : Alignment.topLeft;
     });
   }
 

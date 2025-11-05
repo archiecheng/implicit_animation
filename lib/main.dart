@@ -1,11 +1,3 @@
-/*
- * @Author: archiecheng archiechengice@outlook.com
- * @Date: 2025-11-02 15:27:56
- * @LastEditors: archiecheng archiechengice@outlook.com
- * @LastEditTime: 2025-11-03 22:43:04
- * @FilePath: \Implicit Animations\implicit_animations_demo\lib\main.dart
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 import 'package:flutter/material.dart';
 import 'demos/animated_crossfade.dart';
 import 'demos/animated_container.dart';
