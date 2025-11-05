@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// AnimatedContainer 隐式动画示例：
-/// - 改变容器的大小、颜色、圆角等属性时，会自动平滑过渡
-/// - 无需手动创建 AnimationController
 class AnimatedContainerDemo extends StatefulWidget {
   const AnimatedContainerDemo({super.key});
 
